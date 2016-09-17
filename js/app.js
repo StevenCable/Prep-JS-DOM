@@ -13,6 +13,10 @@ Next, add the following text inside this newly created 'div' element:
 "Overcome its fear of cucumbers!"
 
 Append this 'div' element inside the "bigBox" div element that has already been created in the index.html file*/
+var catBox = document.createElement('div') ;
+catBox.id = "meow";
+catBox.innerHTML = "Overcome it's fear of cucumbers!";
+bigBox.appendChild(catBox);
 
 
 /*Helpful Hints:
@@ -27,7 +31,15 @@ node.appendChild() is a method that appends a node as the last child of a node*/
 "Audition for the next musical."
 
 Append this newly created element to the bigBox element.*/
+var catBox2 = document.createElement("div");
+catBox2.id = "purr";
+catBox2.innerHTML = "Audition for the next musical.";
+bigBox.appendChild(catBox2);
 
+var catBox3 = document.createElement('div');
+catBox3.id = "whatever";
+catBox3.innerHTML = "Lose Weight";
+bigBox.appendChild(catBox3);
 
 
 //Exercise 3
